@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+
+<a href="https://www.youtube.com/watch?v=mmeLCAP74KA"><h1>Cristiano Ronaldo Dos Santos Aveiro</h1></a>
+
+<p>Cristiano Ronaldo is a Portuguese footballer widely considered one of the greatest of all. <br>
+     Born in 1985, he rose to fame at Manchester United, dominating with speed, power, and elite finishing <br>
+
+
+     He became a global superstar at Real Madrid, breaking goal records and winning multiple Champions League titles and Ballon d’Ors. <br>
+       Ronaldo is known for his athleticism, professionalism, and longevity, succeeding in England, Spain, Italy, and internationally with Portugal, <br>
+      winning Euro 2016 and the Nations League. Even in his late 30s, he remains a top scorer and global icon through his discipline, marketing impact, and relentless competitive mindset.
+</p>
+
+<a href="<h1>Cristiano Ronaldo dos Santos Aveiro</h1>"></a>
+
+<img src="https://s.abcnews.com/images/Sports/GTY_Christiano_Reonaldo_TG_140617.jpg" alt="GOAT" width="1000" length="1000">
+
+<div>
+    <br>
+    <br> 
+    <br>
+    <br>
+    Cristiano Ronaldo’s Real Madrid career (2009–2018) was one of the greatest in football history. He scored a record 450 goals in 438 games, becoming the club’s all-time top scorer. Ronaldo won four Champions League titles with Madrid, including three in a row, and claimed two La Liga titles, two Copa del Reys, and multiple FIFA Club World Cups. Individually, he earned four Ballon d’Or awards during his Madrid era. Known for his clutch performances, especially in the Champions League, Ronaldo’s power, speed, finishing, and big-game mentality helped define a dominant era for Real Madrid.
+</div>
+
+<ul style="color: darkblue;">
+    <li>5 Ballon d’Or awards</li>
+    <li>Real Madrid all-time top scorer</li>
+    <li>Euro 2016 winner with Portugal</li>
+    <li>Champions League legend</li>
+</ul>
+
+
+
+
+
+<ul style="color: darkblue;">
+    <li>Sporting CP – where his professional career began</li>
+    <li>Manchester United – became a world star</li>
+    <li>Real Madrid – best years and record-breaking goals</li>
+    <li>Juventus – success in Italian football</li>
+</ul>
+
+
+
+<h2>Fun Facts</h2>
+<ul style="color: darkblue;">
+    <li>Nicknamed CR7 by fans worldwide</li>
+    <li>Scored over 800 goals in his career</li>
+    <li>Known for intense training and discipline</li>
+    <li>One of the most followed athletes in the world</li>
+</ul>
+
+
+
+
+<p>
+    <b><i>Made by Nikoloz Giorgidze</i></b>
+</p>

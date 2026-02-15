@@ -1,0 +1,220 @@
+const prompt = require("prompt-sync")()
+const number = Number(prompt("enter a number:"))
+
+if (number % 2 === 0) {
+    console.log("რიცხვი ლუწია")
+}  else if (number % 2 ===1) {
+    console.log("რიცხვი კენტია")
+}
+
+
+
+let number = -2
+
+if (number >  0) {
+    console.log("დადებითია")
+}
+else if (number < 0  ) {
+    console.log("უარყოფითია")
+}
+else 
+    console.log("ნულია")
+
+
+
+
+
+let numberOne = 10
+let numberTwo = 5
+let sum = numberOne % numberTwo
+if (sum === 0) {
+    console.log("იყოფა")
+} else {
+    console.log("არ იყოფა")
+}
+
+
+
+
+
+let text = "mawoni"
+if (text === "") {
+    console.log("სტრიქონი ცარიელია")
+} else {
+    console.log ("სტრიქონი არ არის ცარიელი")
+} 
+
+
+
+
+
+let text = "mawvnis supi"
+let word = "supi"
+if(text.includes(word)) {
+    console.log("სტრიქონი შეიცავს სიტყვას")
+} else {
+    console.log("სტრიქონი არ შეიცავს სიტყვას")
+}
+
+
+
+
+let numberOne = 10
+let numberTwo = 20
+if (numberOne > numberTwo) {
+    console.log(numberTwo)
+} else if (numberOne < numberTwo){
+    console.log(numberOne)
+} else {
+    console.log("numberOne და numberTwo ტოლია")
+}
+
+
+
+
+
+let numberOne = 10
+let numberTwo = 20
+if (numberOne > numberTwo) {
+    console.log(numberOne)
+} else if (numberOne < numberTwo){
+    console.log(numberTwo)
+} else {
+    console.log("numberOne და numberTwo ტოლია")
+}
+
+
+
+let userAge = 18
+if (userAge >= 18){
+    console.log("Adult")
+}else {
+    console.log("Minor")
+}
+
+
+
+let score = 95
+if (score >= 91 && score <= 100) {
+    console.log("A")
+} else if (score >= 81 && score <= 90) {
+    console.log("B")
+} else if (score >= 71 && score <= 80){
+    console.log("C")
+} else if (score >= 61 && score <= 70){
+    console.log("D")
+}else if (score >= 51 && score <= 60){
+    console.log("E");
+} else {
+    console.log("F")
+}
+
+
+
+
+let score = 52;
+
+switch (true) {
+    case score >= 91 && score <= 100:
+        console.log("A");
+        break;
+
+    case score >= 81 && score <= 90:
+        console.log("B");
+        break;
+
+    case score >= 71 && score <= 80:
+        console.log("C");
+        break;
+
+    case score >= 61 && score <= 70:
+        console.log("D");
+        break;
+
+    case score >= 51 && score <= 60:
+        console.log("E");
+        break;
+
+    case score >= 0 && score <= 50:
+        console.log("ჩაიჭრა");
+        break;
+
+    default:
+        console.log("არ არის შესაბამისი ქულა");
+        break;
+}
+
+
+
+
+let grade = "A"
+
+switch (grade){
+    case "A":
+        console.log("შესანიშნავია")
+        break;
+    case "B":
+        console.log("კარგია")
+        break
+    case "C":
+        console.log("ნორმალურია")
+        break
+    case "D":
+        console.log("კაია")
+        break
+    default:
+        console.log("არ არის შესაბამისი ქულა")
+        
+
+}
+
+
+
+let month = 2
+switch (month) {
+    case 1:
+        console.log("ianvarshi aris 30")
+        break
+    case 2:
+        console.log("tebervalshi 28 dgea, xandaxan 29😁")
+        break
+    case 3: 
+        console.log("martshi 31 dgea")
+        break
+    case 4:
+        console.log("aprilshi 30 dgea da chemi dabadebis dgea🥳")
+        break
+    case 5: 
+        console.log("maisshi 31 dgea")
+    case 6:
+        console.log("ivnisshi 30 dgea")
+        break
+    case 7:
+        console.log("ivlisshi 31 dgea")
+        break
+    case 8:
+        console.log("agvistoshi 30 dgea")
+        break
+    case 9:
+        console.log("seqtembershi 31 dgea")
+        break
+    case 10:
+        console.log("oqtombershi 30 dgea")
+        break
+    case 11:
+        console.log("noembershi 31 dgea")
+        break
+    case 12:
+        console.log("dekembershi 30 dgea")
+        break 
+    
+}
+
+
+
+
+
+
+
+
+

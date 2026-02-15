@@ -1,0 +1,142 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Century;
+
+}
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(https://4kwallpapers.com/images/wallpapers/windows-11-dark-mode-abstract-background-black-background-2560x1440-8710.jpg);
+
+    height: 100vh;
+    background-size: 100% 100%;
+
+    background-position: center;
+    min-height: 100px;
+}
+ul{
+    float: right;   
+    list-style-type: none;
+    margin-top: 30px;
+    min-height: 400px;
+    margin-right: 60px;
+    font-size: 17px;
+}
+
+ul li{
+    display: inline-block;
+}
+ul li a{
+text-decoration: none;
+color: #fff;
+padding: 5px 20px;
+border: 1px solid transparent;
+transition:0.5 ease ;
+}
+
+ul li a:hover{
+    background-color: #fff;
+    color: #000;
+    }
+
+ ul li.active a{
+     background-color: #fff;
+    color: #000;
+ }
+
+.logo img{
+    float: left;
+    width: 150px;
+    height: auto;
+}
+.mtavari{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.title{
+    position: absolute;
+    top: 46%;
+    left: 50%;
+    transform: translate(-50%,-50%,);
+}
+
+
+
+
+
+.title h1{
+    color:#fff;
+    font-size: 70px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.button{
+    position: absolute;
+    top: 90%;
+    left: 5%;
+    transform: translate(-50%,-50%,);
+
+}
+
+
+
+
+.box-area {
+    position: absolute; 
+    top: 55%;           
+   
+    left: 15%;          
+    
+    transform: translateY(-50%); 
+    z-index: 100;       
+}
+
+.bradpitt img {
+    width: 500px;       
+    height: auto;       
+    filter: drop-shadow(0 10px 30px rgba(0,0,0,0.6)); 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

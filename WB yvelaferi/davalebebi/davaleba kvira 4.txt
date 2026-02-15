@@ -1,0 +1,166 @@
+function sayHello() {
+  console.log("Hello, World");
+}
+
+sayHello();
+
+
+
+
+
+
+function greet(name) {
+  console.log("გამარჯობა, " + name);
+}
+
+greet("ნიკა");
+
+
+
+
+
+function sum(a, b) {
+  return a + b;
+}
+
+console.log(sum(6, 7));
+
+
+
+
+
+function getMax(a, b) {
+  return a > b ? a : b;
+}
+
+console.log(getMax(10, 7));
+
+
+
+
+
+const getMax = function(a, b) {
+  return a > b ? a : b;
+};
+
+console.log(getMax(4, 9))
+
+
+
+
+
+const getMax = (a, b) => a > b ? a : b;
+
+console.log(getMax(12, 8));
+
+
+
+
+function printHelloWorld(times) {
+  for (let i = 0; i < times; i++) {
+    console.log("Hello, World");
+  }
+}
+
+printHelloWorld(7);
+
+
+
+
+
+function celsiusToFahrenheit(celsius) {
+  return (celsius * 9/5) + 32;
+}
+
+console.log(celsiusToFahrenheit(67));
+
+
+
+
+
+function sumDigits(number) {
+  let sum = 0;
+  let digits = number.toString();
+
+  for (let i = 0; i < digits.length; i++) {
+    sum += Number(digits[i]);
+  }
+
+  return sum;
+}
+
+console.log(sumDigits(67));
+
+
+
+
+
+
+function countBs(text) {
+  let count = 0;
+  for (let i = 0; i < text.length; i++) {
+    if (text[i] === "B") {
+      count++;
+    }
+  }
+  return count;
+}
+
+console.log(countBs("Breaking Bad"));
+
+
+
+
+
+function sumRange(start, end) {
+  let sum = 0;
+  for (let i = start; i <= end; i++) {
+    sum += i;
+  }
+  return sum;
+}
+
+console.log(sumRange(5, 100));
+
+
+
+
+
+let text = "Walter White";
+let reversed = text.split("").reverse().join("");
+
+if (text === reversed) {
+  console.log(true);
+} else {
+  console.log(false);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

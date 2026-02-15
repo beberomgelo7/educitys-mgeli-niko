@@ -1,0 +1,31 @@
+.Entrance{
+    height: 300px;
+    width: 600px;
+    background-color: grey;
+    display: grid;
+    place-items: center;
+    box-shadow: 10px 10px 5px lightblue;
+
+}
+
+.pi{
+    font-family: sans-serif;
+    color: black;
+    font-weight: bold;
+    
+}
+
+.container1{
+    display: grid;
+    place-items: center;
+   
+}
+
+.animation{
+    height: 300px;
+    width: 200px;
+    background-color: brown;
+    animation: ease 0.9s 2s 0.3s infinite ease ease;
+
+}
+

@@ -1,0 +1,166 @@
+const readline = require("readline");
+const rl = readline.createInterface({ input: process.stdin, output: process.stdout });
+
+rl.question("რა გქვია? ", name => {
+  console.log("გამარჯობა, " + name);
+  rl.close();
+});
+
+
+
+
+
+const readline = require("readline");
+const rl = readline.createInterface({ input: process.stdin, output: process.stdout });
+
+rl.question("შეიყვანეთ სიტყვა ან წინადადება: ", text => {
+  console.log("თქვენი ტექსტი შედგება " + text.length + " სიმბოლოსგან.");
+  rl.close();
+});
+
+
+
+
+
+
+const readline = require("readline");
+const rl = readline.createInterface({ input: process.stdin, output: process.stdout });
+
+rl.question("შეიყვანეთ ციტატა: ", quote => {
+  rl.question("შეიყვანეთ ავტორი: ", author => {
+    console.log('"' + quote + '" - ' + author);
+    rl.close();
+  });
+});
+
+
+
+
+
+
+const readline = require("readline");
+const rl = readline.createInterface({ input: process.stdin, output: process.stdout });
+
+rl.question("შეიყვანეთ სტრიქონი: ", text => {
+  console.log(text.toLowerCase());
+  rl.close();
+});
+
+
+
+
+
+
+const readline = require("readline");
+const rl = readline.createInterface({ input: process.stdin, output: process.stdout });
+
+rl.question("შეიყვანეთ წინადადება: ", text => {
+  let slowed = text.replace(/ /g, "...");
+  console.log(slowed);
+  rl.close();
+});
+
+
+
+
+
+
+const readline = require("readline");
+const rl = readline.createInterface({ input: process.stdin, output: process.stdout });
+function convert(str) {
+  str = str.replace(/:\)/g, "🙂");
+  str = str.replace(/:\(/g, "🙁");
+  return str;
+}
+function main() {
+  rl.question("შეიყვანეთ ტექსტი: ", text => {
+    const converted = convert(text);
+    console.log(converted);
+    rl.close();
+  });
+}
+main()
+
+
+
+
+
+
+
+const readline = require("readline");
+const rl = readline.createInterface({ input: process.stdin, output: process.stdout });
+
+rl.question("არსებითი სახელი: ", noun => {
+  rl.question("ზმნა: ", verb => {
+    rl.question("ზმნიზედა: ", adverb => {
+      rl.question("ზედსართავი სახელი: ", adjective => {
+        console.log("ერთმა " + adjective + " " + noun + " გადაწყვიტა " + verb + " " + adverb + "!");
+        rl.close();
+      });
+    });
+  });
+});
+
+
+
+
+
+
+
+const readline = require('readline');
+
+const rl = readline.createInterface({
+  input: process.stdin,
+  output: process.stdout
+});
+
+function ask(question) {
+  return new Promise(resolve => rl.question(question, answer => resolve(answer)));
+}
+
+async function main() {
+  let maxNumber;
+  do {
+    maxNumber = parseInt(await ask("აირჩიეთ თამაშის დონე (დადებითი ლუწი ციფრი): "));
+    if (isNaN(maxNumber) || maxNumber <= 0 || maxNumber % 2 !== 0) {
+      console.log("გთხოვთ შეიყვანოთ დადებითი ლუწი მთელი რიცხვი.");
+    }
+  } while (isNaN(maxNumber) || maxNumber <= 0 || maxNumber % 2 !== 0);
+
+  const target = Math.floor(Math.random() * (maxNumber / 2)) * 2 + 2; // even number between 2 and maxNumber
+  let guess;
+
+  do {
+    guess = parseInt(await ask("განცხადეთ თქვენი პასუხი: "));
+    if (isNaN(guess) || guess <= 0 || guess % 2 !== 0) {
+      console.log("გთხოვთ შეიყვანოთ დადებითი ლუწი მთელი რიცხვი.");
+      continue;
+    }
+    if (guess < target) {
+      console.log("ძაან პატარაა");
+    } else if (guess > target) {
+      console.log("დიდია");
+    } else {
+      console.log("სწორია!");
+    }
+  } while (guess !== target);
+
+  rl.close();
+}
+
+main();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

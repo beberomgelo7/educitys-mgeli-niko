@@ -1,0 +1,84 @@
+.animacia {
+  width: 100px;
+  height: 100px;
+  background: blue;
+  animation: moveRight 2s infinite alternate;
+}
+
+@keyframes moveRight {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(200px);
+  }
+}
+
+
+.meore {
+  width: 80px;
+  height: 80px;
+  background: red;
+  border-radius: 50%;
+  animation: pulse 1.5s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+
+  50% {
+    transform: scale(1.2);
+    opacity: 0.7;
+  }
+
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+
+.cancara{
+    width: 80px;
+    height: 80px;
+    background-color: chartreuse;
+    transition: transform 0.9s
+}
+
+.cancara:hover{
+    transform: translateX(80px);
+}
+
+.triala{
+    width: 180px;
+    height: 180px;
+    background-color: rgb(139, 0, 123);
+    transition: transform 0.9s
+}
+
+.triala:hover{
+    transform: rotate(360deg);
+}
+
+
+.morbenali{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+   position: relative;
+   animation-name: morbenali;
+   animation-duration: 5s;
+   animation-iteration-count: infinite;
+}
+
+@keyframes morbenali{
+   0%   {background-color:red ; left:0px; top:0px;}
+  25%  {background-color:yellow; left:200px; top:0px;}
+  50%  {background-color:blue; left:200px; top:200px;}
+  75%  {background-color:green; left:0px; top:200px;}
+  100% {background-color:red; left:0px; top:0px;}
+}
+

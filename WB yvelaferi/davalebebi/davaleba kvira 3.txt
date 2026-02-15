@@ -1,0 +1,142 @@
+let i = 0
+while (i <= 10) {
+    console.log(i);
+    i++
+}
+
+
+
+
+
+for (let i = 1; i <= 20; i++){
+    console.log(i)
+}
+
+
+
+
+for (let i = 1; i <= 5; i++){
+    console.log("hello")
+}
+
+
+
+
+for (let i = 1; i <= 100; i++){
+    if (i % 2 ===0)
+        console.log(i)
+}
+
+
+
+
+for (let i = 1; i <= 100; i++){
+    if (i % 2 ===1)
+        console.log(i)
+}
+
+
+
+
+
+const prompt = require('prompt-sync')()
+let secret = 5, guess = 0 
+while(guess !== secret) {
+guess = +prompt("gamoicani saidumlo cifri")
+if(guess !== secret) console.log("ver gamoicani")
+}
+console.log("gamoicani")
+
+
+
+for (let i = 10; i >= 1; i--) {
+    console.log(i);
+}
+
+
+
+
+
+for (let i = 3; i <= 30; i += 3) {
+  console.log(i);
+}
+
+
+
+
+
+for (let i = 1; i <= 10; i++) {
+    console.log("4 x " + i + " = " + 4 * i);
+}
+
+
+
+
+let str = "AlgoUni";
+let i = 0;
+
+while (str[i]) {
+    i++;
+}
+
+console.log(i);
+
+
+
+
+let num = -10;
+
+do {
+    console.log(num < 5 ? "ki" : "ara");
+    num++;
+} while (num <= 10);
+
+
+
+
+for (let i = 20; i >= 10; i--) {
+    console.log(i);
+}
+
+
+
+let hash = ""
+for (let i = 0; i < 7; i++){
+    hash = hash + "#"
+    console.log(hash)
+}
+
+
+
+
+for (let i = 1; i <= 100; i++){
+    if (i % 3 === 0 && i % 5 === 0) {
+         console.log("FizzBuzz");
+         } else if (i % 3 === 0){
+            console.log("Fizz")
+         } else if (i % 5 ===0){
+            console.log("Buzz")
+         }
+       
+}
+
+
+
+
+
+
+let size = 8;
+let board = ""
+for (let i = 0; i < size; i++){
+    let line = "";
+    for (let j = 0; j < size; j++){
+     if ((i + j) % 2 === 0){
+        line += " ";  
+     } else {
+        line += "#";
+     }
+    }
+    board += line + "\n"
+}
+
+console.log(board)
